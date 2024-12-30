@@ -18,10 +18,10 @@ En este proyecto se crea un algoritmo en PSEINT el cual sirve para calcular el t
 - Constantes: costo_fijo <- 10, descuento_cupon <- 0.90, descuento_cantidad_prod <- 0.95
 
 ### Segundo paso, damos paso a la interfaz del usuario preguntando y pidiendo que ingrese el precio unitario del producto y si posee o no un cupon de descuento y lo almacenamos en una variable:
-Escribir "Ingrese el precio unitario del producto que desea llevar: "
-leer precio_original
-Escribir "Tiene cupon de descuento?: (si/no)"
-leer cupon_sino
+```Escribir "Ingrese el precio unitario del producto que desea llevar: "```
+```leer precio_original```
+```Escribir "Tiene cupon de descuento?: (si/no)"```
+```leer cupon_sino```
 
 ### Tercer paso, validamos si tiene el cupon de descuento basandonos en la respuesta que dio. Utilizando un bucle condicional "SI", "ENTONCES", "SINO", FINSI":
 si cupon_sino = "si" Entonces

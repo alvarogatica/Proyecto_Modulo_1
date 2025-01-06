@@ -31,7 +31,7 @@ Algoritmo Proyecto1
 	Escribir "Cuantos productos desea llevar?: "
 	leer cantidad_productos
 	
-	//bucle "Para" y "SI", paraver si cuenta con descuento por cantidad
+	//bucle "Para" y "SI", para ver si cuenta con descuento por cantidad
 	para i desde 0 hasta cantidad_productos hacer
 	si i > 1 Entonces
 		precio_cantidad_prod <- precio_descuento_cupon_iva * descuento_cantidad_prod
